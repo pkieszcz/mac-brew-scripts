@@ -22,6 +22,7 @@ apps=(
 	skype
 	slack
 	sourcetree
+	Caskroom/cask/tomighty
 	thunderbird
 	virtualbox
 	wireshark
