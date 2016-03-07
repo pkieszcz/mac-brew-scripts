@@ -3,6 +3,8 @@
 brew install caskroom/cask/brew-cask
 brew tap caskroom/fonts
 brew cask install font-inconsolata
+brew cask install font-open-sans
+brew cask install font-oswald
 
 # Apps
 apps=(
