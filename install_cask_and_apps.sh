@@ -10,6 +10,7 @@ brew cask install font-oswald
 apps=(
 	appcleaner
 	atom
+	airmail-beta
 	cakebrew
 	clipmenu
 	evernote
@@ -23,9 +24,9 @@ apps=(
 	gpgtools
 	skype
 	slack
+	spotify
 	sourcetree
 	Caskroom/cask/tomighty
-	thunderbird
 	virtualbox
 	wireshark
 )
