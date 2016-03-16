@@ -29,6 +29,7 @@ apps=(
 	Caskroom/cask/tomighty
 	virtualbox
 	wireshark
+  vagrant
 )
 
 # Default is: /Users/$user/Applications
