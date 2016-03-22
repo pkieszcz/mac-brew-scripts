@@ -8,6 +8,7 @@ brew cask install font-oswald
 
 # Apps
 apps=(
+  adium
 	appcleaner
 	atom
 	airmail-beta
