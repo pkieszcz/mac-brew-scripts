@@ -19,7 +19,6 @@ apps=(
 	firefox
 	flash
 	Caskroom/versions/iterm2-beta
-	karabiner
 	tunnelblick
 	google-chrome
 	gpgtools
