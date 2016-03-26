@@ -12,7 +12,6 @@ apps=(
 	appcleaner
 	atom
 	airmail-beta
-	cakebrew
 	clipmenu
 	evernote
 	filezilla
