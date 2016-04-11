@@ -24,10 +24,12 @@ apps=(
 	slack
 	spotify
 	sourcetree
+  teamviewer
 	Caskroom/cask/tomighty
 	virtualbox
 	wireshark
   vagrant
+  xquartz
 )
 
 # Default is: /Users/$user/Applications
