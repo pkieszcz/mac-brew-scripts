@@ -22,6 +22,7 @@ apps=(
 	gpgtools
 	skype
 	slack
+  spectacle
 	spotify
 	sourcetree
   teamviewer
