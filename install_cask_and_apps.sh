@@ -17,6 +17,7 @@ apps=(
 	firefox
 	flash
 	Caskroom/versions/iterm2-beta
+  itsycal
 	tunnelblick
 	google-chrome
 	gpgtools
