@@ -8,30 +8,37 @@ brew cask install font-oswald
 
 # Apps
 apps=(
+	airmail-beta
+	android-file-transfer
 	appcleaner
 	atom
-	airmail-beta
+	cakebrew
+	ccleaner
 	clipmenu
 	evernote
-	filezilla
 	firefox
 	flash
-	Caskroom/versions/iterm2-beta
-  itsycal
-	tunnelblick
+	font-inconsolata
+	font-open-sans
+	font-oswald
 	google-chrome
 	gpgtools
+	Caskroom/versions/iterm2-beta
+	itsycal
+	keepassx
+	osxfuse
 	skype
 	slack
-  spectacle
-	spotify
 	sourcetree
-  teamviewer
+	spectacle
+	spotify
+	teamviewer
 	Caskroom/cask/tomighty
+	tunnelblick
+	vagrant
 	virtualbox
 	wireshark
-  vagrant
-  xquartz
+	xquartz
 )
 
 # Default is: /Users/$user/Applications
