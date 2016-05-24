@@ -18,6 +18,7 @@ apps=(
 	evernote
 	firefox
 	flash
+	flux
 	font-inconsolata
 	font-open-sans
 	font-oswald
