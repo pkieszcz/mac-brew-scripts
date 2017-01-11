@@ -3,18 +3,17 @@
 brew install caskroom/cask/brew-cask
 brew tap caskroom/fonts
 brew tap colindean/fonts-nonfree
+brew tap jcgay/jcgay
+brew install maven-deluxe
 brew cask install font-inconsolata
 brew cask install font-open-sans
 brew cask install font-oswald
 
 # Apps
 apps=(
-  appcleaner
-  atom
-  cakebrew
+  alfred2
   clipmenu
   docker
-  evernote
   firefox
   flux
   font-inconsolata
@@ -22,15 +21,13 @@ apps=(
   font-open-sans
   font-oswald
   google-chrome
-  gpgtools
   iterm2-beta
   itsycal
   java
   karabiner
-  keepassx
+  near-lock
   skype
   slack
-  sourcetree
   spectacle
   spotify
   teamviewer
