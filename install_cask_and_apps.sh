@@ -26,6 +26,7 @@ apps=(
   java
   karabiner
   near-lock
+  sshuttle
   skype
   slack
   spectacle
