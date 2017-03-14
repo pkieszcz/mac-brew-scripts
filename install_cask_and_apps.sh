@@ -12,6 +12,7 @@ brew cask install font-oswald
 # Apps
 apps=(
   alfred2
+  appcleaner
   clipmenu
   docker
   firefox
@@ -21,17 +22,22 @@ apps=(
   font-open-sans
   font-oswald
   google-chrome
+  google-hangouts
+  gpgtools
   iterm2-beta
   itsycal
   java
   karabiner
+  keystore-explorer
+  logitech-options
+  mysqlworkbench
   near-lock
-  sshuttle
   skype
   slack
   spectacle
   spotify
   teamviewer
+  the-unarchiver
   tomighty
   tunnelblick
   vagrant
