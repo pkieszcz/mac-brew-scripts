@@ -32,6 +32,7 @@ apps=(
   logitech-options
   mysqlworkbench
   near-lock
+  shellcheck
   skype
   slack
   spectacle
@@ -49,7 +50,7 @@ apps=(
 echo "installing apps..."
 for var in "${apps[@]}"
   do
-    brew cask install ${var}
+    brew cask install "${var}"
   done
 
 brew cask cleanup
