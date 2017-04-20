@@ -3,9 +3,6 @@
 (set -x; brew update;)
 (set -x; brew upgrade;)
 
-(set -x; brew cleanup;)
-(set -x; brew cask cleanup;)
-
 red=$(tput setaf 1)
 green=$(tput setaf 2)
 reset=$(tput sgr0)
@@ -25,3 +22,6 @@ do
         echo "${red}${cask}${reset} is ${green}up-to-date${reset}."
     fi
 done
+
+(set -x; brew cleanup;)
+(set -x; brew cask cleanup;)
