@@ -13,7 +13,7 @@ brew cask install font-oswald
 apps=(
   alfred2
   appcleaner
-  clipmenu
+  Clipy
   docker
   firefox
   flux
