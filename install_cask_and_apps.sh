@@ -3,17 +3,15 @@
 brew install caskroom/cask/brew-cask
 brew tap caskroom/fonts
 brew tap colindean/fonts-nonfree
-brew tap jcgay/jcgay
-brew install maven-deluxe
-brew cask install font-inconsolata
-brew cask install font-open-sans
-brew cask install font-oswald
 
 # Apps
 apps=(
   alfred2
+  Asepsis
   appcleaner
+  caffeine
   Clipy
+  cheatsheet
   docker
   firefox
   flux
@@ -23,12 +21,8 @@ apps=(
   font-oswald
   google-chrome
   google-hangouts
-  gpgtools
   iterm2-beta
   itsycal
-  java
-  karabiner
-  keystore-explorer
   logitech-options
   mysqlworkbench
   near-lock
@@ -37,13 +31,13 @@ apps=(
   slack
   spectacle
   spotify
-  teamviewer
+  timing
   the-unarchiver
   tomighty
+  totalfinder
   tunnelblick
   vagrant
   virtualbox
-  wireshark
 )
 
 # Default is: /Users/$user/Applications
