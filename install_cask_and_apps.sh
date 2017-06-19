@@ -6,8 +6,7 @@ brew tap colindean/fonts-nonfree
 
 # Apps
 apps=(
-  alfred2
-  Asepsis
+  alfred
   appcleaner
   caffeine
   Clipy
@@ -21,7 +20,7 @@ apps=(
   font-oswald
   google-chrome
   google-hangouts
-  iterm2-beta
+  iterm2
   itsycal
   logitech-options
   mysqlworkbench
@@ -31,7 +30,6 @@ apps=(
   slack
   spectacle
   spotify
-  timing
   the-unarchiver
   tomighty
   totalfinder
