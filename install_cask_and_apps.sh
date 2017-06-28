@@ -13,7 +13,6 @@ apps=(
   cheatsheet
   docker
   firefox
-  flux
   font-inconsolata
   font-microsoft-office
   font-open-sans
