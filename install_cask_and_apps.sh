@@ -9,8 +9,9 @@ apps=(
   alfred
   appcleaner
   caffeine
-  Clipy
+  cargo
   cheatsheet
+  clipy
   docker
   firefox
   font-inconsolata
@@ -22,16 +23,15 @@ apps=(
   iterm2
   itsycal
   logitech-options
+  meld
   mysqlworkbench
   near-lock
-  shellcheck
   skype
   slack
   spectacle
   spotify
   the-unarchiver
   tomighty
-  totalfinder
   tunnelblick
   vagrant
   virtualbox
