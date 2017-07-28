@@ -41,8 +41,8 @@ defaults write com.apple.screencapture location -string ~/screenshots
 echo "Disable menu transparency."
 defaults write com.apple.universalaccess reduceTransparency -int 1
 
-echo "Increase contrast."
-defaults write com.apple.universalaccess increaseContrast -int 1
+#echo "Increase contrast."
+#defaults write com.apple.universalaccess increaseContrast -int 1
 
 echo "Disable mouse enlargement with jiggle."
 defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool true
