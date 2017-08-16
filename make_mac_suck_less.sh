@@ -99,9 +99,9 @@ defaults write ~/Library/Preferences/com.apple.Safari BlockStoragePolicy -bool f
 echo "Enable Safari warnings when visiting fradulent websites."
 defaults write ~/Library/Preferences/com.apple.Safari WarnAboutFraudulentWebsites -bool true
 
-echo "Disable javascript in Safari."
-defaults write ~/Library/Preferences/com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptEnabled -bool false
-defaults write ~/Library/Preferences/com.apple.Safari WebKitJavaScriptEnabled -bool false
+#echo "Disable javascript in Safari."
+#defaults write ~/Library/Preferences/com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptEnabled -bool false
+#defaults write ~/Library/Preferences/com.apple.Safari WebKitJavaScriptEnabled -bool false
 
 echo "Block popups in Safari."
 defaults write ~/Library/Preferences/com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptCanOpenWindowsAutomatically -bool false
