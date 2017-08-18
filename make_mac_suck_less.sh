@@ -189,6 +189,21 @@ defaults write com.apple.commerce AutoUpdate -bool true
 echo "Run one final check to make sure software is up to date."
 softwareupdate -i -a
 
+echo "Add custom stack for recent/documents/more "
+defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'
+
+echo "Show hidden app icons"
+defaults write com.apple.dock showhidden -bool TRUE
+
+echo "Use scroll gestures"
+defaults write com.apple.dock scroll-to-open -bool TRUE
+
+echo "Use suck animaton"
+defaults write com.apple.dock mineffect suck
+
+echo "Block dock from resizing"
+defaults write com.apple.Dock size-immutable -bool yes
+
 killall Dock
 killall Finder
 
