@@ -71,8 +71,8 @@ chflags nohidden ~/Library
 echo "Show the /Volumes folder."
 sudo chflags nohidden /Volumes
 
-echo "Show hidden files (whose name starts with dot) in finder."
-defaults write com.apple.finder AppleShowAllFiles -int 1
+#echo "Show hidden files (whose name starts with dot) in finder."
+#defaults write com.apple.finder AppleShowAllFiles true
 
 echo "Show full file path in finder windows."
 defaults write _FXShowPosixPathInTitle com.apple.finder -int 1
