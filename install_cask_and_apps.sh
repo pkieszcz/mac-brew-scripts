@@ -12,6 +12,7 @@ apps=(
   cargo
   cheatsheet
   clipy
+  contexts
   docker
   firefox
   font-inconsolata
