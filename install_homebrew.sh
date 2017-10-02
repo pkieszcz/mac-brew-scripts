@@ -27,21 +27,47 @@ echo "put this in Your's .bash_profile file in order too use this tools"
 echo "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 binaries=(
-  rename
-  python
-  sshfs
-  trash
-  node
-  tree
-  ack
-  hub
+  autoconf
+  bash
+  bash-completion
+  cmake
+  coreutils
+  findutils
+  gdbm
+  gettext
   git
-  htop
-  mc
-  fish
-  vpcs
-  dynamips
-  qemu
+  glib
+  go
+  grep
+  groovy
+  icu4c
+  libffi
+  libpng
+  libssh2
+  libyaml
+  lua
+  mas
+  midnight-commander
+  mono
+  node
+  openssl
+  openssl@1.1
+  pcre
+  perl
+  pkg-config
+  pwgen
+  pyenv
+  pyenv-virtualenv
+  python
+  readline
+  rename
+  ruby
+  rust
+  s-lang
+  sqlite
+  terraform
+  vim
+  wget
 )
 
 echo "installing binaries..."

@@ -13,6 +13,7 @@ apps=(
   cheatsheet
   clipy
   contexts
+  dbeaver-community
   docker
   firefox
   font-inconsolata
@@ -21,12 +22,17 @@ apps=(
   font-oswald
   google-chrome
   google-hangouts
+  gpgtools
+  hipchat
   iterm2
   itsycal
+  java8
+  karabiner
   logitech-options
   meld
   mysqlworkbench
   near-lock
+  nextcloud
   skype
   slack
   spectacle
