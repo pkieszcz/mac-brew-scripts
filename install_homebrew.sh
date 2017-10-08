@@ -40,6 +40,7 @@ binaries=(
   go
   grep
   groovy
+  icdiff
   icu4c
   libffi
   libpng
