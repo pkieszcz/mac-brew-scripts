@@ -204,8 +204,8 @@ defaults write com.apple.dock mineffect suck
 echo "Block dock from resizing"
 defaults write com.apple.Dock size-immutable -bool yes
 
+echo "Disable Dashboard"
+defaults write com.apple.dashboard mcx-disabled -boolean YES
+
 killall Dock
 killall Finder
-
-
-
