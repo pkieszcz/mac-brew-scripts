@@ -6,42 +6,49 @@ brew tap colindean/fonts-nonfree
 
 # Apps
 apps=(
-  alfred
-  appcleaner
-  caffeine
-  cargo
-  cheatsheet
-  clipy
-  contexts
-  dbeaver-community
-  docker
-  firefox
-  font-inconsolata
-  font-microsoft-office
-  font-open-sans
-  font-oswald
-  google-chrome
-  google-hangouts
-  gpgtools
-  hipchat
-  iterm2
-  itsycal
-  java8
-  karabiner
-  logitech-options
-  meld
-  mysqlworkbench
-  near-lock
-  nextcloud
-  skype
-  slack
-  spectacle
-  spotify
-  the-unarchiver
-  tomighty
-  tunnelblick
-  vagrant
-  virtualbox
+1password
+airtame
+appcleaner
+caffeine
+chefdk
+clipy
+coconutbattery
+contexts
+docker
+etcher
+font-hack
+font-hack-nerd-font
+font-inconsolata
+font-inconsolata-for-powerline
+font-microsoft-office
+font-open-sans
+font-oswald
+font-roboto-mono
+github
+google-chrome
+google-cloud-sdk
+iterm2
+itsycal
+java
+logitech-options
+macs-fan-control
+minikube
+mysqlworkbench
+near-lock
+qmk-toolbox
+skype
+skype-for-business
+slack
+spectacle
+spotify
+steam
+teamviewer
+the-unarchiver
+tomighty
+tunnelblick
+vagrant
+virtualbox
+visual-studio-code
 )
 
 # Default is: /Users/$user/Applications
