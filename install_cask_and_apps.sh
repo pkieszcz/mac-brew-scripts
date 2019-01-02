@@ -55,7 +55,7 @@ visual-studio-code
 echo "installing apps..."
 for var in "${apps[@]}"
   do
-    brew cask install "${var}"
+    brew cask install "${var}" --force
   done
 
 brew cask cleanup
