@@ -29,6 +29,7 @@ echo "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 #Taps
 brew tap johanhaleby/kubetail
 brew tap wata727/tflint
+brew tap buo/cask-upgrade
 
 binaries=(
 ark
