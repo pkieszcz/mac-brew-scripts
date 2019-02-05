@@ -30,11 +30,13 @@ echo "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 brew tap johanhaleby/kubetail
 brew tap wata727/tflint
 brew tap buo/cask-upgrade
+brew tap osx-cross/avr
 
 binaries=(
 ark
 asciinema 
 avrdude
+avr-gcc
 awscli
 awslogs
 bash
