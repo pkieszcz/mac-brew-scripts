@@ -1,21 +1,19 @@
 #!/bin/bash
 
-brew install caskroom/cask/brew-cask
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew cask
+
 brew tap caskroom/fonts
 brew tap colindean/fonts-nonfree
 
 # Apps
 apps=(
 1password
-airtame
 appcleaner
 caffeine
-chefdk
 clipy
-coconutbattery
 contexts
-docker
-etcher
 font-hack
 font-hack-nerd-font
 font-inconsolata
@@ -24,30 +22,15 @@ font-microsoft-office
 font-open-sans
 font-oswald
 font-roboto-mono
-github
 google-chrome
-google-cloud-sdk
 iterm2
 itsycal
-java
 logitech-options
-macs-fan-control
-minikube
-mysqlworkbench
-near-lock
-qmk-toolbox
-skype
-skype-for-business
 slack
-spectacle
+slate
 spotify
-steam
-teamviewer
 the-unarchiver
 tomighty
-tunnelblick
-vagrant
-virtualbox
 visual-studio-code
 )
 
